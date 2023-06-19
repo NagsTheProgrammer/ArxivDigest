@@ -1,9 +1,9 @@
 # For physics topics, use the specific subtopics, e.g. "Astrophysics"
-topic: "Computer Science"
+topic: ["Computer Science", Quantatative Finance"]
 # An empty list here will include all categories in a topic
 # Use the natural language names of the topics, found here: https://arxiv.org
 # Including more categories will result in more calls to the large language model
-categories: ["Artificial Intelligence", "Computation and Language"]
+categories: []
 
 # Relevance score threshold. abstracts that receive a score less than this from the large language model
 # will have their papers filtered out.
@@ -21,7 +21,7 @@ threshold: 7
 # This can be empty, which just return a full list of papers with no judgement or filtering,
 # in whatever order arXiv responds with.
 interest: |
-  1. Large language model pretraining and finetunings
-  2. Multimodal machine learning
-  3. Do not care about specific application, for example, information extraction, summarization, etc.
-  4. Not interested in paper focus on specific languages, e.g., Arabic, Chinese, etc.
+  1. Machine learning and neural network models for electricity price forecasting specifically related to electricity price spikes.
+  2. Graph neural networks or spatio-temporal models for predicitng locational marginal prices (LMPs).
+  3. meta-learning models to perform weighted aggregate prediction from multiple models.
+  4. Mostly interested in papers from 2017 and newer however relevant papers from older sources may be useful if they have high citation.
